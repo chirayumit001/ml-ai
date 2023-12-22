@@ -1,0 +1,15 @@
+import cv2
+import numpy as np
+img = cv2.imread(r'C:\Users\chira\OneDrive\Desktop\ml-ai\area_approach_radius\test.png')
+height = img.shape[0]
+width = img.shape[1]
+cv2.imshow('ABcz', img)
+print(height)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+# # ave = cv2.mean(thresh)[0]/255
+# print(ave)
+# 0.310184375
+# area = ave*height*width
+# print(area)
+# 198518.0
